@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexora Systems</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Nexora Systems</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#companies">Our Companies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Nexora Systems</h1>
+        <p>Building next-generation technology solutions for Africa and beyond.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Nexora Systems</h2>
+        <p>Founded by Aliyu Abdullahi, Nexora Systems is a modern technology and digital solutions company focused on web, mobile, and enterprise applications. We aim to empower businesses across Africa with innovative technology.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Designing responsive and professional websites for businesses and startups.</p>
+            </div>
+            <div class="card">
+                <h3>App Development</h3>
+                <p>Building intuitive mobile applications for iOS and Android platforms.</p>
+            </div>
+            <div class="card">
+                <h3>Digital Solutions</h3>
+                <p>Offering enterprise software, automation tools, and fintech integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies Section -->
+    <section id="companies" class="companies">
+        <h2>Our Companies</h2>
+        <ul>
+            <li>Nexora Pay – Upcoming fintech and digital payments platform</li>
+            <li>Nexora Systems – Web, mobile, and enterprise solutions</li>
+            <li>Nexora Capital – Investment and startup ventures (launching soon)</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Nexora Systems. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
